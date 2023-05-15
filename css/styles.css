@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'Monocraft';
+  src:  url("../fonts/Monocraft.ttf") format("truetype");
+}
+#hi{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family:"Monocraft";
+    width: 90%;
+    flex: auto;
+  }
+
+table, td {
+border: 1px solid #999999;
+color: aliceblue;
+}
+
+thead, tfoot {
+background-color: #333;
+color: aliceblue;
+}
+
+#centrer{
+    text-align: center;
+    height: 110%;
+    width: 110%;
+    border: 5px #e4dcdc;
+    font-family:"Monocraft";
+}
+
+form{
+    
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0;
+    max-width: 600px;
+}
+
+#body {
+    background-color: rgb(0, 0, 0);
+    color :rgb(255, 255, 255);
+    padding: auto;
+    margin: 10%;
+    }
+a{
+    color: rgb(224, 118, 224)
+}
+#but{
+    background-color: rgb(255, 255, 255);
+    font-family:"Monocraft";
+}
+#lien{
+    color: black;
+}
+header {
+    background: url('../img/hacker.gif') no-repeat center center fixed;
+    background-size: cover;
+    padding: 10%;
+    text-align: center;
+    box-shadow: 5px 5px 5px #4b4b4b;
+  }
+  
+  footer {
+    background: url('../img/hacker.gif') no-repeat center center fixed;
+    background-size: cover;
+    padding: 15%;
+    box-shadow: 5px 5px 5px #4b4b4b;
+    position: static;
+    width: auto;
+    bottom: auto;
+
+  }
+    
+p{
+    padding: 2%;
+    flex: auto;
+}
+h1{
+    text-align: center;
+    color: bisque;
+    font-size: 35px;
+}
+
+h2{
+    color: rgb(57, 20, 219);
+    font-size: 35px;
+}
+a{
+    display: block;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    height: 80%;
+    
+}
+section{
+    text-align: justify;
+}
+img{
+    border: 10px #e4dcdc
+    ;
+}
+#menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(-20px); /* Ajustez cette valeur selon vos besoins */
+  }
+  
+  /* Les autres styles restent inchangés */
+  
+  #menu li a:hover {
+    color: rgb(42, 218, 26); /* Changer la couleur du texte au survol */
+    background-color: yellow; /* Changer la couleur de la boîte au survol */
+  }
+  #menu li a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid transparent;
+    transition: all 2s; /* Ajouter une transition de 1 seconde */
+  }
+  
+  #menu li a:first-child {
+    background-color: transparent; /* Couleur de fond pour le premier lien */
+  }
+  
+  #menu li a:nth-child(2) {
+    background-color: green; /* Couleur de fond pour le deuxième lien */
+  }
+  
+  #menu li a:nth-child(3) {
+    background-color: blue; /* Couleur de fond pour le troisième lien */
+  }
+  
+  #menu li a:nth-child(4) {
+    background-color: yellow; /* Couleur de fond pour le quatrième lien */
+  }
+  .c1{
+    color: red; 
+  }
+  .c2{
+    color: rgb(229, 255, 0); 
+  }
+  .c3{
+    color: rgb(130, 207, 41); 
+  }
+  .c4{
+    color: rgb(0, 255, 13); 
+  }
+
+  #jjj{
+    font-family:"Monocraft";
+  }
+  #jjjj{
+    font-family:"Monocraft";
+  }
+  
+
+/* body{
+    color: aliceblue;
+
+} */
